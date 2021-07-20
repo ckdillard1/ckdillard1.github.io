@@ -6,10 +6,15 @@
     "sourceMap": true,
     "declaration": true,
     "jsx": "preserve",
-    "outFile": "game.js",
     "types": ["excalibur"],
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./lib/",
+    "newLine": "LF",
   },
   "exclude": [
     "node_modules",
@@ -17,5 +22,5 @@
   ],
   "include": [
     "src/**/*"
-  ],
+  ]
 }
