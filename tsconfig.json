@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "jsx": "preserve",
+    "outFile": "game.js",
+    "types": ["excalibur"],
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    ".git"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+}
